@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "isogram-csharp-problem", "isogram-csharp-problem\isogram-csharp-problem.csproj", "{4756A784-123C-413D-A88C-40C1209E6D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isogram.Tests", "Isogram.Tests\Isogram.Tests.csproj", "{B58F49FD-752F-445A-BF07-093E0A6FF677}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4756A784-123C-413D-A88C-40C1209E6D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4756A784-123C-413D-A88C-40C1209E6D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4756A784-123C-413D-A88C-40C1209E6D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4756A784-123C-413D-A88C-40C1209E6D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58F49FD-752F-445A-BF07-093E0A6FF677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58F49FD-752F-445A-BF07-093E0A6FF677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58F49FD-752F-445A-BF07-093E0A6FF677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58F49FD-752F-445A-BF07-093E0A6FF677}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BA4185E-752F-4119-A0CE-402F83602294}
+	EndGlobalSection
+EndGlobal
