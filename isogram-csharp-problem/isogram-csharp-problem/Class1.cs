@@ -17,13 +17,13 @@ namespace isogram_csharp_problem
                 return true;
             else
             {
-                for (int i = 0; i < TestInput.Length; i++)
+                for (int j = 0; j < TestInput.Length; j++)
                 {
-                    if (!dictionary.ContainsKey(TestInput[i]))
+                    if (!dictionary.ContainsKey(TestInput[j]))
                     {
-                        if (char.IsLetter(TestInput[i]))
+                        if (char.IsLetter(TestInput[j]))
                         {
-                            dictionary.Add(TestInput[i], i);
+                            dictionary.Add(TestInput[j], j);
                         }
                     }
 
