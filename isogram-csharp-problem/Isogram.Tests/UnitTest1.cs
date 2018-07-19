@@ -34,7 +34,7 @@ namespace isogram_csharp_problem.Tests
         [Fact]
         public void isogram_duplicated_charcacters_mixed_case()
         {
-            Assert.Equal(expected, isogramClient.IsIsogram("God"));
+            Assert.Equal(expected, isogramClient.IsIsogram("Gode"));
         }
 
         [Fact]
